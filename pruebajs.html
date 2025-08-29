@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script> 
+let nombre = " Maria  ";
+const aniodenacimito = 2004;
+let anioActual = 2025;
+let edad = aniodenacimito - anioActual;  
+
+console.log(" nombre: " + nombre );
+       console.log( " aniodenacimito: " + aniodenacimito );
+       console.log( " anioActual: " + anioActual);
+       console.log(" edad: " + edad);
+ 
+ document.write( " nombre: " + nombre +  "<br>" );
+ document.write( " anio denacimito: " + aniodenacimito + "<br>"  );
+ document.write( " anio Actual: " + anioActual + "<br>"  );
+ document.write( " edad: " + edad + "<br>"  );
+
+ let hora = 20;
+ if (hora < 12) {
+    console.log(" buenos dias ");
+ } else if ( hora < 18) {
+    console.log( " Buenas Tardes");
+ } else {
+    console.log( "Buenas nocheS");
+ }
+    
+ for(let i = 0; i < 6; i++) {
+    console.log( " iteracion" + i);
+ }
+
+ let contador = 0;
+ while (contador < 10) {
+
+console.log(" contando de 0 a 9: " + contador);
+contador++;
+ }
+
+ function saludar( nombre) {
+    return "hola buenas Tardes,"  + nombre + "!"
+
+ }
+ console.log(saludar("maria"));
+ console.log(saludar("maria"));
+ 
+ 
+        </script>
+</body>
+</html>

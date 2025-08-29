@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+
+ </head>
+ <body>
+
+    <H1> Mi pagina</H1>
+    <p id="mensaje"> holamundo!</p>
+
+    <script>
+        let parrafo= document.getElementById("mensaje");
+        
+        parrafo.textContent="El texto ha sido cambiado con javascript";
+
+            parrafo.addEventListener("mouseover",
+                function() {
+
+                    parrafo.classList.add("resaltado");
+                });
+
+
+        </script>
+
+        </body>
+        </html>
+
+    
